@@ -1,0 +1,41 @@
+.text{
+    background-color: #FC004A;
+    color: white;
+    width: 256px;
+    height: 35px;
+    text-align: center;
+   
+}
+.op{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    border: 1px solid;
+}
+.card{
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+box-shadow: 0px 10px 15px -3px #0000001A;
+width: 235px;
+border-radius: 15px;
+}
+.plus{
+    background-color: #FC004A;
+    width: 40px;
+    height: 40px;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+.opshi{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width:400px){
+    .opshi{
+        width: 200px;
+        height: 200px;
+    }
+}
